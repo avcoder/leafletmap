@@ -49,6 +49,9 @@
             accessToken: "your.mapbox.access.token"
           }
         ).addTo(mymap);
+
+        // place a marker
+        var marker = L.marker([lat, lng]).addTo(mymap);
       });
     </script>
   </body>
